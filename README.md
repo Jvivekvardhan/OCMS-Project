@@ -28,26 +28,24 @@ This is the frontend of the Online Course Management System (OCMS) built using R
 - JavaScript (ES6)
 
 ---
-
 ## 📁 Project Structure
+
+```
 src/
 ├── pages/
-├── Courses.js # Displays all courses
-
-│ ├── CourseContent.js # Shows content of selected course
-│ ├── MyCourses.js # Displays enrolled courses
-│ ├── Login.js # Handles login functionality
-│ └── Register.js # Handles user registration
+│   ├── Courses.js        # Displays all courses
+│   ├── CourseContent.js  # Shows content of selected course
+│   ├── MyCourses.js      # Displays enrolled courses
+│   ├── Login.js          # Handles login functionality
+│   └── Register.js       # Handles user registration
 │
 ├── components/
-│ └── Navbar.js # Navigation bar
+│   └── Navbar.js         # Navigation bar
 │
-├── App.js # Routing and layout
-└── index.js # Entry point
-
-
+├── App.js                # Routing and layout
+└── index.js              # Entry point
+```
 ---
-
 ## 🔍 Key Components
 
 - **Courses.js**: Fetches and displays all available courses from backend
