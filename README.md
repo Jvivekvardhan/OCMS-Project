@@ -32,8 +32,7 @@ This is the frontend of the Online Course Management System (OCMS) built using R
 ## 📁 Project Structure
 src/
 ├── pages/
-
-│ ├── Courses.js # Displays all courses
+├── Courses.js # Displays all courses
 
 │ ├── CourseContent.js # Shows content of selected course
 │ ├── MyCourses.js # Displays enrolled courses
